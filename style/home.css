@@ -1,0 +1,575 @@
+@font-face {
+    font-family: Arial, Helvetica, sans-serif;
+    src: url();
+}
+:root {
+    --color1: #99CACA;
+    --color2: #F4F4F4;
+    --color3: #f5a77a;
+}
+
+/* ------ Body --------*/
+
+body{
+    background-color: #ffffff;
+    color: #555555;
+    font-size: 16px;
+    font-family: Helvetica,Arial,  sans-serif;
+}
+
+
+/* ------ Header --------*/
+
+header{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(images/cover_overlay.png),url(images/drone-1920.jpg) fixed;
+    background-size: cover;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bar-menu i a {
+    float: left;
+    margin-left: -100px !important;
+
+}
+img.cover-profile{
+    position: relative;
+    overflow: auto;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: 100px;
+}
+
+h1.titre{
+    text-align: center;
+    color: #ffffff;
+    font-family: sans-serif !important;
+}
+.top_social_bar{
+    background-color:rgba(19, 18, 8, 0.2);
+    padding: 5px 5px 0px 0px;
+    margin: 0px 5px 0px 0px;
+    width: 100%;
+    color: white;
+}
+.top_social_bar div.row {
+    width: 1220px !important;
+    max-width: 100rem;
+}
+.social_urls{
+    margin-right: -15px;
+    margin-left: 35px;
+}
+
+.top_social_links a{
+    padding-right: 5px;
+    color: #b0b1b5;
+    font-size: 16px;
+
+    /* effects */
+    -webkit-transition: color 0.3s ;
+    -o-transition: color 0.3s ;
+    -moz-transition: color 0.3s ;
+    transition: color 0.3s;
+}
+
+div.top_social_links a:hover , div.top_social_links a:active{
+    color: var( --color3);
+    font-weight: bold;
+}
+div.top_social_links i{
+    font-size: 18px;
+    margin-right: 3px;
+}
+
+img.vibot-image{
+    height: 60px;
+    padding-right: 65px;
+    margin-left: 0;
+    position: relative;
+    float: left;
+}
+.top-bar{
+    background-color: rgba(0,0,0,0.2);
+    padding: 0px;
+    height: auto;
+}
+
+.top-bar ul {
+    background-color: transparent;
+}
+
+.top-bar li {
+padding-right: 65px;
+height: 65px;
+font-size: 24px;
+font-weight: bold;
+padding-top: 10px;
+
+}
+.top-bar li a{
+    color: #ffffff;
+    /* effects */
+    -webkit-transition: color 0.3s , border-bottom 0.3s ;
+    -o-transition: color 0.3s ,  border-bottom 0.3s ;
+    -moz-transition: color 0.3s ,  border-bottom 0.3s;
+    transition: color 0.3s , border-bottom 0.3s;
+}  
+.top-bar-left li a:hover , .top-bar-left li a:active {
+    color: var( --color3) ;
+    border-bottom: 2px solid  var( --color3);
+  
+
+}
+.imvia-logo{
+    height: 50px;
+    width: auto;
+    position: relative;
+    margin-left: 25px;
+}
+.universite-logo{
+    height: 40px;
+    width: auto;
+    position: relative; 
+    margin-left: 15px;
+}
+.cerema-logo{
+    height: 70px;
+    width: auto;
+    position: relative; 
+    margin-left: 10px;
+}
+.publicite{
+    margin-top: 200px ;
+    margin-bottom: auto;
+}
+
+.titre-2{
+    margin-top: 0px;
+    text-align: center;
+}
+.titre-2 h2::after {
+    display: block;
+    background-color: #99CACA;
+    height: 2px;
+    width: 7%;
+    content: '';
+    margin: 15px auto 0 auto;
+    margin-bottom: 75px;
+}
+.titre-3 {
+    margin-bottom: 15px;
+}
+.intro h3 {
+    margin-top: 50px;
+}
+
+.intro p{
+    text-align: justify;
+    font-size: 22px;
+}
+.image-gif{
+    margin-top: 35px;
+}
+.wave{
+    margin-top: 50px;
+}
+.wave p{
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 22px;
+}
+.spectre{
+margin-top: 50px;    
+}
+.spectre p{
+    text-align: justify;
+    font-size: 22px;
+}
+.section {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: auto;
+}
+
+div.section-grise1 {
+    background: url(images/triangle2white.svg) no-repeat center bottom -1px/100%;
+    background-color: var(--color2);
+    padding-top: -40px;
+    padding-bottom: 70px;
+}
+p.developpement-un {
+font-size: 22px;    
+}
+.polar{
+    margin-top: 10px;
+}
+.polar p{
+    margin-top: 20px;
+    font-size: 22px;   
+    text-align: justify; 
+    }
+.paragraphe-polar{
+        margin-bottom: -30px;
+}
+.circulaire{
+    margin-top: 10px;    
+}
+.circulaire p{
+        text-align: justify;
+        font-size: 22px;
+}
+
+
+
+
+/* -------- SECTION GRISE 2 ------------- */ 
+
+
+.colone{
+    font-size: 20px;
+    
+}
+
+div.section-grise2 {
+    background: url(images/triangle1white.svg) no-repeat center top/100%;
+    background-color: var(--color2);
+    padding-top: 80px;
+}
+.titre-section-geise-2{
+text-align: center;
+margin-top: 50px;
+}
+.image-grise-2{
+    height: 236.450px;
+    width: 359.462px;
+    margin: 5px 5px;
+    /* effects*/
+    -webkit-transition :all 0.4s ease-in;
+    -moz-transition :all 0.4s ease-in;
+    transition :all 0.4s ease-in;
+}
+.image-grise-2:hover{
+    -webkit-transform:scale(1.4);
+    -moz-transform:scale(1.4);
+    transform: scale(1.4);
+
+}
+/* ======== carousel ============*/
+
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container-image {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+  }
+  .image-avatar{
+    height: 236.450px;
+    width: 359.462px;
+  }
+  
+  /* The overlay effect - lays on top of the container and over the image */
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* When you mouse over the container, fade in the overlay title */
+  .container-image:hover .overlay {
+    opacity: 1;
+  }
+
+
+.custom-button{
+    padding: 0;
+    margin: 0;
+}
+.container-carousel{
+    margin-bottom: 30px;
+}
+
+/*SECTION GRISE 3*/
+div.section-grise3 {
+    background: url(images/triangle2white.svg) no-repeat center bottom -1px/100%;
+    background-color: var(--color2);
+    padding-top: -200px;
+    padding-bottom: 150px;
+}
+.telechargement{
+    text-align: center;
+}
+
+a.telecharger-images{
+    text-align: center;
+    color: rgb(128, 128, 128);
+    border: 2px solid #99CACA;
+    border-radius: 25px;
+    font-size: 25px;
+    padding: 10px 10px;
+}
+a.telecharger-images:hover{
+    color:white;
+    background-color:#99CACA;
+    background-size: cover;
+    /*effects
+    -webkit-transition :all 0.4s ease-in;
+    -moz-transition :all 0.4s ease-in;
+    transition :all 0.4s ease-in;
+    */
+}
+
+/*section blanche*/
+.titre-section-geise-3{
+    margin-top: 0px;
+    text-align: center;
+}
+.titre-section-geise-3::after {
+    display: block;
+    background-color: #99CACA;
+    height: 2px;
+    width: 7%;
+    content: '';
+    margin: 5px auto 0 auto;
+    margin-bottom: 15px;
+}
+p.section-blanche2{
+    text-align: justify;
+}
+
+
+
+
+
+
+
+/* Responsive design : mobile */ 
+
+@media only screen and (max-width: 767px){
+
+    header{
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(images/cover_overlay.png)no-repeat center,url(images/drone-1920.jpg) no-repeat center;
+        background-size: 430px;
+        height: 200px;
+    }
+
+    .top-bar{
+        background-color: transparent;
+    }
+    
+    .top-bar li {
+    padding-right: 0px;
+    height: 0px;
+    font-size: 0px;
+    font-weight: bold;
+    padding-top: 0px;
+    }    
+
+    img.cover-profile{
+        height: 70px;
+        width: auto;
+        margin-left: -40px;
+        margin-top: 7px;
+    }
+    
+    .top_social_links a{
+        font-size: 25px;
+
+    }
+    .top_social_bar{
+        padding:0px;
+        margin: 0;
+        
+    }
+    .top_social_bar div.row {
+        width: 0;
+        max-width: 0;
+    }
+    .social_urls{
+        margin-right: -15px;
+        margin-left: 35px;
+    }
+    img.vibot-image{
+        height: 0;
+        padding-right: 0;
+        margin-left: 0;
+        position: relative;
+        float: left;
+    }
+    .titre{
+        font-size: 20px;
+    }
+    .imvia-logo{
+        height: 25px;
+        width: auto;
+        position: relative;
+        margin-left: 25px;
+    }
+    .universite-logo{
+        height: 25px;
+        width: auto;
+        position: relative; 
+        margin-left: 15px;
+    }
+    .cerema-logo{
+        height: 35px;
+        width: auto;
+        position: relative; 
+        margin-left: 10px;
+    }
+    .publicite{
+        margin-top: -9px ;
+        margin-bottom: auto;
+    }
+    div.section-grise1 {
+        padding-top: -3px;
+        padding-bottom: 0px;
+    }
+    h2.titre-grise{
+        font-size: 25px;
+    }
+    .titre-3{
+        font-size: 25px;
+            font-weight: bold;
+    }
+    p.paragraphe1{
+        font-size: 20px;
+    }
+    .container-carousel{
+        text-align: center;
+    }
+    a.telecharger-images{
+        font-size: 18px;
+    }
+    h2.titre-section-geise-2{
+        margin-top: 2px;
+        margin-bottom: 5px;
+    }
+    div.section-grise3 {
+        padding-bottom: 50px;
+    }
+ 
+}
+
+
+@media only screen and (min-width: 767px) and (max-width: 1000px){
+    header{
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(images/cover_overlay.png)no-repeat center,url(images/drone-1920.jpg) no-repeat center;
+        background-size: 1000px;
+        height: 300px;
+    }
+
+    .top-bar{
+        background-color: transparent;
+    }
+    
+    .top-bar li {
+    padding-right: 0px;
+    height: 0px;
+    font-size: 0px;
+    font-weight: bold;
+    padding-top: 0px;
+    }    
+
+    img.cover-profile{
+        height: 70px;
+        width: auto;
+        margin-left: -40px;
+        margin-top: 7px;
+    }
+    
+    .top_social_links a{
+        font-size: 25px;
+
+    }
+    .top_social_bar{
+        padding:0px;
+        margin: 0;
+        
+    }
+    .top_social_bar div.row {
+        width: 0;
+        max-width: 0;
+    }
+    .social_urls{
+        margin-right: -15px;
+        margin-left: 35px;
+    }
+    img.vibot-image{
+        height: 0;
+        padding-right: 0;
+        margin-left: 0;
+        position: relative;
+        float: left;
+    }
+    .titre{
+        font-size: 20px;
+    }
+    .imvia-logo{
+        height: 25px;
+        width: auto;
+        position: relative;
+        margin-left: 25px;
+    }
+    .universite-logo{
+        height: 25px;
+        width: auto;
+        position: relative; 
+        margin-left: 15px;
+    }
+    .cerema-logo{
+        height: 35px;
+        width: auto;
+        position: relative; 
+        margin-left: 10px;
+    }
+    .publicite{
+        margin-top: -9px ;
+        margin-bottom: auto;
+    }
+    div.section-grise1 {
+        padding-top: -3px;
+        padding-bottom: 0px;
+    }
+    h2.titre-grise{
+        font-size: 25px;
+    }
+    .titre-3{
+        font-size: 25px;
+            font-weight: bold;
+    }
+    p.paragraphe1{
+        font-size: 20px;
+    }
+    .container-carousel{
+        text-align: center;
+    }
+    a.telecharger-images{
+        font-size: 18px;
+    }
+    h2.titre-section-geise-2{
+        margin-top: 2px;
+        margin-bottom: 5px;
+    }
+    div.section-grise3 {
+        padding-bottom: 50px;
+    }
+    .carousel-control-next{
+        margin-left: 0;
+    }
+   
+}
+
+
